@@ -334,125 +334,125 @@ export const parentsData = [
 export const subjectsData = [
   {
     id: 1,
-    name: "Math",
-    teachers: ["Alice Phelps", "Russell Davidson"],
+    nombre: "Bateria",
+    maestros: ["Marcelo Alejandro Amaro"],
   },
   {
     id: 2,
-    name: "English",
-    teachers: ["Manuel Becker", "Eddie Chavez"],
+    nombre: "English",
+    maestros: ["Manuel Becker", "Eddie Chavez"],
   },
   {
     id: 3,
-    name: "Physics",
-    teachers: ["Lola Newman", "Darrell Delgado"],
+    nombre: "Physics",
+    maestros: ["Lola Newman", "Darrell Delgado"],
   },
   {
     id: 4,
-    name: "Chemistry",
-    teachers: ["Nathan Kelly", "Benjamin Snyder"],
+    nombre: "Chemistry",
+    maestros: ["Nathan Kelly", "Benjamin Snyder"],
   },
   {
     id: 5,
-    name: "Biology",
-    teachers: ["Alma Benson", "Lina Collier"],
+    nombre: "Biology",
+    maestros: ["Alma Benson", "Lina Collier"],
   },
   {
     id: 6,
-    name: "History",
-    teachers: ["Hannah Bowman", "Betty Obrien"],
+    nombre: "History",
+    maestros: ["Hannah Bowman", "Betty Obrien"],
   },
   {
     id: 7,
-    name: "Geography",
-    teachers: ["Lora French", "Sue Brady"],
+    nombre: "Geography",
+    maestros: ["Lora French", "Sue Brady"],
   },
   {
     id: 8,
-    name: "Art",
-    teachers: ["Harriet Alvarado", "Mayme Keller"],
+    nombre: "Art",
+    maestros: ["Harriet Alvarado", "Mayme Keller"],
   },
   {
     id: 9,
-    name: "Music",
-    teachers: ["Gertrude Roy", "Rosa Singleton"],
+    nombre: "Music",
+    maestros: ["Gertrude Roy", "Rosa Singleton"],
   },
   {
     id: 10,
-    name: "Literature",
-    teachers: ["Effie Lynch", "Brett Flowers"],
+    nombre: "Literature",
+    maestros: ["Effie Lynch", "Brett Flowers"],
   },
 ];
 
 export const classesData = [
   {
     id: 1,
-    name: "1A",
-    capacity: 20,
-    grade: 1,
+    nombre: "1A",
+    capacidad: 20,
+    grado: 1,
     supervisor: "Joseph Padilla",
   },
   {
     id: 2,
-    name: "2B",
-    capacity: 22,
-    grade: 2,
+    nombre: "2B",
+    capacidad: 22,
+    grado: 2,
     supervisor: "Blake Joseph",
   },
   {
     id: 3,
-    name: "3C",
-    capacity: 20,
-    grade: 3,
+    nombre: "3C",
+    capacidad: 20,
+    grado: 3,
     supervisor: "Tom Bennett",
   },
   {
     id: 4,
-    name: "4B",
-    capacity: 18,
-    grade: 4,
+    nombre: "4B",
+    capacidad: 18,
+    grado: 4,
     supervisor: "Aaron Collins",
   },
   {
     id: 5,
-    name: "5A",
-    capacity: 16,
-    grade: 5,
+    nombre: "5A",
+    capacidad: 16,
+    grado: 5,
     supervisor: "Iva Frank",
   },
   {
     id: 5,
-    name: "5B",
-    capacity: 20,
-    grade: 5,
+    nombre: "5B",
+    capacidad: 20,
+    grado: 5,
     supervisor: "Leila Santos",
   },
   {
     id: 7,
-    name: "7A",
-    capacity: 18,
-    grade: 7,
+    nombre: "7A",
+    capacidad: 18,
+    grado: 7,
     supervisor: "Carrie Walton",
   },
   {
     id: 8,
-    name: "6B",
-    capacity: 22,
-    grade: 6,
+    nombre: "6B",
+    capacidad: 22,
+    grado: 6,
     supervisor: "Christopher Butler",
   },
   {
     id: 9,
-    name: "6C",
-    capacity: 18,
-    grade: 6,
+    nombre: "6C",
+    capacidad: 18,
+    grado: 6,
     supervisor: "Marc Miller",
   },
   {
     id: 10,
-    name: "6D",
-    capacity: 20,
-    grade: 6,
+    nombre: "6D",
+    capacidad: 20,
+    grado: 6,
     supervisor: "Ophelia Marsh",
   },
 ];
@@ -913,6 +913,39 @@ export const announcementsData = [
     class: "1C",
     date: "2025-01-01",
   },
+];
+
+export const cancionesData = [
+  {
+    id: 1,
+    nombre: "Rock Uruguayo",
+    foto: "/uruguay.png",
+    
+  },
+  {
+    id: 2,
+    nombre: "Rock Argentino",
+    foto: "/argentina.png",
+    
+  },
+  {
+    id: 3,
+    nombre: "Rock en Ingles",
+    foto: "/inglaterra.png",
+    
+  },
+  {
+    id: 4,
+    nombre: "OldHits",
+    foto: "/oldhits.png",
+    
+  },
+  {
+    id: 5,
+    nombre: "Reggae",
+    foto: "/reggae.png",
+  },
+  
 ];
 
 
