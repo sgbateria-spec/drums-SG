@@ -1,5 +1,6 @@
 import Announcements from "@/components/Annoucements";
 import BigCalendar from "@/components/BigCalendar";
+import FormModal from "@/components/FormModal";
 import Performance from "@/components/Performance";
 import Image from "next/image"
 import Link from "next/link";
@@ -22,10 +23,22 @@ const SingleMaestroPage = () => {
                         </div>
                         <div className="w-2/3 flex flex-col justify-between gap-4">
                             <div className="flex items-center gap-4">
-
-
                                 <h1 className="text-xl font-semibold">Marcelo Amaro</h1>
-                                
+                                    <FormModal table="maestro" type="update" data={
+                                        {
+                                            id: 1,
+                                            username: "marceloamaro",
+                                            email: "maa@marceloamaro.com",                                        password: "password",
+                                            firstName: "Marcelo",
+                                            lastName: "Amaro",
+                                            phone: "1234567890",
+                                            address: "20 de setiembre",
+                                            bloodType: "A+",
+                                            birthday: "23-09-1977",
+                                            sex: "hombre",
+                                            img: "https://images.pexels.com/photos/2888150/pexels-photo-2888150.jpeg?auto=compress&cs=tinysrgb&w=1200",
+                                        }
+                                }/>
                             </div>
                             <p className="text-sm text-gray-500">
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.

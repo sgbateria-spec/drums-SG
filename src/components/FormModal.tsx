@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
+import MaestroForm from "./forms/MaestroForm";
 
 const FormModal = ({table,type,data,id}:{
     table: "maestro" | "alumno" 
@@ -33,7 +34,9 @@ const FormModal = ({table,type,data,id}:{
         <form action="" className="p-4 flex flex-col gap-4">
             <span className="text-center font-medium">Toda la información se perderá. Estás seguro de que quieres barrar {table}?</span>
             <button className="bg-red-700 text-white py-2 px-4 rounded-md border-none w-max self-center">Delete</button>
-        </form> ):( "create or update form" ); 
+        </form> ):( 
+            <MaestroForm type="update" data={data}/>
+        ); 
     };
 
 
